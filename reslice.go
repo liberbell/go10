@@ -7,4 +7,6 @@ func main() {
 	fmt.Println("Slice == ", slice)
 
 	fmt.Println("Slice[1:4] == ", slice[1:4])
+
+	fmt.Println("Slice[:3] == ", slice[:3])
 }
