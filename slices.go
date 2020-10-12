@@ -7,6 +7,6 @@ func main() {
 	fmt.Println("slices ==", slices)
 
 	for i := 0; i < len(slices); i++ {
-		fmt.Println("slices[%d] == %d\n", i, slices[i])
+		fmt.Printf("slices[%d] == %d\n", i, slices[i])
 	}
 }
