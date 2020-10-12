@@ -1,5 +1,8 @@
 package main
 
+import "fmt"
+
 func main() {
-	z
+	slices := []int{7, 9, 11, 13}
+	fmt.Println("slices ==", slices)
 }
