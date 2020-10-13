@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	slice1 := []int{7, 8, 9}
-	slice2 := append(slice1, 11, 12)
+	slice2 := append([]int, 2)
 
 	copy(slice2, slice1)
 
