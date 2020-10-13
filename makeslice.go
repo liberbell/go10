@@ -8,6 +8,9 @@ func main() {
 
 	b := make([]int, 0, 4)
 	printS1("b", b)
+
+	c := b[:1]
+	printS1("c", c)
 }
 
 func printS1(s string, x []int) {
