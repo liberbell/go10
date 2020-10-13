@@ -11,6 +11,9 @@ func main() {
 
 	c := b[:1]
 	printS1("c", c)
+
+	d := c[2:4]
+	printS1("d", d)
 }
 
 func printS1(s string, x []int) {
