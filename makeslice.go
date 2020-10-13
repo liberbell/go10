@@ -5,6 +5,9 @@ import "fmt"
 func main() {
 	a := make([]int, 4)
 	printS1("a", a)
+
+	b := make([]int, 0, 4)
+	printS1("b", b)
 }
 
 func printS1(s string, x []int) {
