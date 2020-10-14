@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 type Rect struct {
-	Width, int
-	Length, int
+	Width  int
+	Length int
 }
 
 func main() {
