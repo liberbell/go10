@@ -8,7 +8,8 @@ type Rect struct {
 }
 
 func main() {
-	r := Rect{1, 2}
-	r.Width = 18
-	fmt.Println(r.Width)
+	r := Rect{4, 6}
+	p := &r
+	p.Width = 8
+	fmt.Println(r)
 }
