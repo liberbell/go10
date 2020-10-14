@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
-type Ract struct {
+type Rect struct {
 	Width, int
 	Length, int
 }
 
 func main() {
-	fmt.Println(Ract(7, 8))
+	fmt.Println(Rect{7, 8})
 }
