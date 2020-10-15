@@ -2,6 +2,10 @@ package main
 
 import "fmt"
 
+type Rect struct {
+	Width, Height int
+}
+
 var (
 	r1 = Rect{7, 8}
 	r2 = Rect{Width: 4}
