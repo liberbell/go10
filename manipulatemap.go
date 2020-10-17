@@ -13,4 +13,7 @@ func main() {
 
 	delete(w, "answer")
 	fmt.Println("The value: ", w["answer"])
+
+	v, ok := w["answer"]
+	fmt.Println("The value: ", v, "Present?", ok)
 }
