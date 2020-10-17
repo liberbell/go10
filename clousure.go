@@ -10,4 +10,5 @@ func main() {
 	}
 	fmt.Println(decrement())
 	fmt.Println(decrement())
+	fmt.Println(decrement())
 }
