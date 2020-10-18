@@ -8,5 +8,6 @@ func fibonacci() func() int {
 	fmt.Println(x)
 	return func() int {
 		x, y = y, x+y
+		return x
 	}
 }
