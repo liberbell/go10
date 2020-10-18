@@ -15,4 +15,7 @@ func main() {
 	s := Square{8, 6}
 	c = &s
 	fmt.Println(c.Calc())
+
+	c = f
+	fmt.Println(c.Calc())
 }
