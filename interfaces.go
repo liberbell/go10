@@ -26,3 +26,7 @@ func (f myFloat) Calc() float64 {
 	}
 	return float64(f)
 }
+
+func (s *Square) Calc() float64 {
+	return math.Sqrt(s.X*s.X + s.Y*s.Y)
+}
