@@ -15,6 +15,6 @@ func (r Root) Abs() float64 {
 }
 
 func main() {
-	r := Root(-math.Sqrt)
+	r := Root(-math.Sqrt2)
 	fmt.Println(r.Abs())
 }
