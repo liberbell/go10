@@ -19,3 +19,10 @@ func main() {
 	c = f
 	fmt.Println(c.Calc())
 }
+
+func (f myFloat) Calc() float64 {
+	if f < 0 {
+		return float64(f)
+	}
+	return float64(f)
+}
