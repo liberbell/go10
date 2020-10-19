@@ -5,6 +5,10 @@ import (
 	"time"
 )
 
+func main() {
+	msg()
+}
+
 func msg() {
 	for i := 1; i < 5; i++ {
 		time.Sleep(time.Millisecond * 1000)
