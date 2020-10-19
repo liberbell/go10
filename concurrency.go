@@ -9,7 +9,7 @@ func f(msg int) {
 }
 
 func main() {
-	go f("value of a")
+	go f("value of i")
 	var input string
 	fmt.Scanln(&input)
 }
