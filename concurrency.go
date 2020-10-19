@@ -9,5 +9,7 @@ func f(msg int) {
 }
 
 func main() {
-	a
+	go f("value of a")
+	var input string
+	fmt.Scanln(&input)
 }
