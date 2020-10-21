@@ -10,4 +10,5 @@ func main() {
 	fmt.Println("Slice[:3]", slice[:3])
 	fmt.Println("Slice[2:]", slice[2:])
 	fmt.Println("len Slice ==", len(slice))
+	fmt.Println("cap Slice ==", cap(slice))
 }
