@@ -9,4 +9,5 @@ func main() {
 
 	fmt.Println(<-c)
 	fmt.Println(<-c)
+	fmt.Println(<-c)
 }
