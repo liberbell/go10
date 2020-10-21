@@ -18,4 +18,8 @@ func main() {
 
 	fmt.Println("\nThe new values in slices: ")
 	report("slice", slice)
+
+	fmt.Println("\nNow we'll append 2 values to slice(what happen?)")
+	slice = append(slice, 10, 20)
+	report("slice", slice)
 }
