@@ -40,3 +40,10 @@ func main() {
 	reslice := slice[1:5]
 	report("reslice", reslice)
 }
+
+func resize(slice []int) []int {
+	for i := 0; i < 8; i++ {
+		slice = append(slice, 1)
+	}
+	return slice
+}
