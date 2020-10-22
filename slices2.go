@@ -33,7 +33,7 @@ func main() {
 
 	fmt.Println("\nMake a copy, only the copy has a cap of 8:")
 	slicecopy := make([]int, 8)
-	copy(slicecopy slice)
+	copy(slicecopy, slice)
 	report("sliceCopy", slicecopy)
 
 	fmt.Println("\nLet's slice our slice for a reslice:")
