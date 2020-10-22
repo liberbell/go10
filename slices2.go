@@ -47,3 +47,9 @@ func resize(slice []int) []int {
 	}
 	return slice
 }
+
+func main() {
+	fmt.Println(name, "=", slice)
+	fmt.Println("len", name, len(slice))
+	fmt.Println("cap", name, "==", cap(slice))
+}
