@@ -28,4 +28,6 @@ func main() {
 	report("slice", slice)
 
 	fmt.Println("\nNow we we'll append 8 more values to slice(guess what happen?")
+	slice = resize(slice)
+	report("slice", slice)
 }
