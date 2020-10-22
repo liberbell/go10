@@ -30,4 +30,8 @@ func main() {
 	fmt.Println("\nNow we we'll append 8 more values to slice(guess what happen?")
 	slice = resize(slice)
 	report("slice", slice)
+
+	fmt.Println("\nMake a copy, only the copy has a cap of 8:")
+	slicecopy := make([]int, 8)
+	report("sliceCopy", slicecopy)
 }
